@@ -1,4 +1,5 @@
-﻿using AspNetMvcMonolithic.Models.DomainModels.PersonAggregats;
+﻿using System.Data.SqlTypes;
+using AspNetMvcMonolithic.Models.DomainModels.PersonAggregats;
 
 namespace AspNetMvcMonolithic.ApplicationService.Dtos
 {
@@ -7,7 +8,7 @@ namespace AspNetMvcMonolithic.ApplicationService.Dtos
         public int Id { get; set; }
         public string Code { get; set; }
         public string Title { get; set; }
-        public int UnitPrice { get; set; }
+        public SqlMoney UnitPrice { get; set; }
         public int Quantity { get; set; }
         public string RecordDescription { get; set; }
 

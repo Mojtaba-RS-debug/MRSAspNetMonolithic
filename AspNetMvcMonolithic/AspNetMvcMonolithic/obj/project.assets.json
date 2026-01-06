@@ -4717,11 +4717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mojtaba_RS\\Desktop\\AspNetMvcMonolithic\\AspNetMvcMonolithic\\AspNetMvcMonolithic\\AspNetMvcMonolithic.csproj",
+      "projectUniqueName": "C:\\Users\\Mojtaba_RS\\Desktop\\AspNetMvcMonolithic\\MRSAspNetMonolithic\\AspNetMvcMonolithic\\AspNetMvcMonolithic\\AspNetMvcMonolithic.csproj",
       "projectName": "AspNetMvcMonolithic",
-      "projectPath": "C:\\Users\\Mojtaba_RS\\Desktop\\AspNetMvcMonolithic\\AspNetMvcMonolithic\\AspNetMvcMonolithic\\AspNetMvcMonolithic.csproj",
+      "projectPath": "C:\\Users\\Mojtaba_RS\\Desktop\\AspNetMvcMonolithic\\MRSAspNetMonolithic\\AspNetMvcMonolithic\\AspNetMvcMonolithic\\AspNetMvcMonolithic.csproj",
       "packagesPath": "C:\\Users\\Mojtaba_RS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mojtaba_RS\\Desktop\\AspNetMvcMonolithic\\AspNetMvcMonolithic\\AspNetMvcMonolithic\\obj\\",
+      "outputPath": "C:\\Users\\Mojtaba_RS\\Desktop\\AspNetMvcMonolithic\\MRSAspNetMonolithic\\AspNetMvcMonolithic\\AspNetMvcMonolithic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
