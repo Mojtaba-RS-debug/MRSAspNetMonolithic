@@ -1,19 +1,23 @@
 using AspNetMvcMonolithic.ApplicationService.Services;
 using AspNetMvcMonolithic.ApplicationService.Services.Contracts;
+using AspNetMvcMonolithic.ApplicationServices.Services;
 using AspNetMvcMonolithic.Models;
 using AspNetMvcMonolithic.Models.Services.Contracts;
 using AspNetMvcMonolithic.Models.Services.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
 builder.Services.AddDbContext<ProjectDbContext>();
 builder.Services.AddScoped<IPersonRepository, PersonRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IPersonApplicationService, PersonApplicationService>();
 builder.Services.AddScoped<IProductApplicationService, ProductApplicationService>();
+
 
 var app = builder.Build();
 

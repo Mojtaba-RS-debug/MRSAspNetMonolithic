@@ -54,9 +54,6 @@ namespace AspNetMvcMonolithic.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PersonId")
-                        .HasColumnType("int");
-
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
@@ -68,30 +65,12 @@ namespace AspNetMvcMonolithic.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UnitPrice")
-                        .HasColumnType("int");
+                    b.Property<decimal>("UnitPrice")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PersonId");
-
                     b.ToTable("Product");
-                });
-
-            modelBuilder.Entity("AspNetMvcMonolithic.Models.DomainModels.ProductAggregats.Product", b =>
-                {
-                    b.HasOne("AspNetMvcMonolithic.Models.DomainModels.PersonAggregats.Person", "Person")
-                        .WithMany("Products")
-                        .HasForeignKey("PersonId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Person");
-                });
-
-            modelBuilder.Entity("AspNetMvcMonolithic.Models.DomainModels.PersonAggregats.Person", b =>
-                {
-                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

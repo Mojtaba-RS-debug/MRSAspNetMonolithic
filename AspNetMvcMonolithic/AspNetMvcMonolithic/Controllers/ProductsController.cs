@@ -1,5 +1,5 @@
-﻿using AspNetMvcMonolithic.ApplicationService.Services;
-using AspNetMvcMonolithic.ApplicationService.Services.Contracts;
+﻿using AspNetMvcMonolithic.ApplicationService.Services.Contracts;
+using AspNetMvcMonolithic.ApplicationServices.Services;
 using AspNetMvcMonolithic.Models;
 using AspNetMvcMonolithic.Models.DomainModels.ProductAggregats;
 using Microsoft.AspNetCore.Mvc;
@@ -43,7 +43,8 @@ namespace AspNetMvcMonolithic.Controllers
             }
 
             var product = await _ProductApplicationService.GetAllProductsListAsync();
-                
+
+
             if (product == null)
             {
                 return NotFound();
