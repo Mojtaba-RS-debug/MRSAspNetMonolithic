@@ -17,8 +17,8 @@ namespace AspNetMvcMonolithic.Models.Services.Repositories
         {
             try
             {
-                var projectDbContext = _context.Product.Include(p => p.Person);
-                return await projectDbContext.ToListAsync();
+
+                return await _context.Product.ToListAsync();
             }
             catch (Exception e)
             {

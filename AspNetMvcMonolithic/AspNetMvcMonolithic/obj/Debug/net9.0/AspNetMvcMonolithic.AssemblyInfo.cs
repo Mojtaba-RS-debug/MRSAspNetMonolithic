@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspNetMvcMonolithic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e0cd9fddfaecf5aa9efd4ce26ba8e21320c005e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1ae8dc68cc47d3c3b88029aa01e2c66047f3a09")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspNetMvcMonolithic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspNetMvcMonolithic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
